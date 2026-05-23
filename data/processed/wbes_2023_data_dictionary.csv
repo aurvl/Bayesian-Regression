@@ -1,0 +1,17 @@
+processed_variable,source_indicator_code,role,source_topic,source_label,economic_interpretation,unit
+target_real_annual_sales_growth_pct,perf1,Target,Firm Profile,Real annual sales growth (%),Real annual sales growth (%). Continuous performance outcome used as y.,Percent
+alt_target_labor_productivity_growth_pct,perf3,Alternative target,Firm Profile,Real annual labor productivity growth (%),Real annual labor productivity growth (%). Kept for robustness / alternative notebook runs.,Percent
+rd_spending_firms_pct,t10,R&D,Innovation and Technology,Percent of firms that spend on R&D in the last fiscal years,Percent of firms that spent on R&D in the last fiscal year.,Percent
+avg_fte_workers,wk21,Firm size,Workforce,Number of permanent full-time equivalent workers,Average number of permanent full-time equivalent workers.,Average number of workers
+log_avg_fte_workers,derived from wk21,Firm size transform,Workforce,log(1 + average permanent full-time equivalent workers),Log firm-size proxy used to reduce leverage from very large average employment values.,Log workers
+fixed_assets_purchase_firms_pct,perf4,Capital investment,Firm Profile,Percent of firms buying fixed assets,Percent of firms buying fixed assets.,Percent
+direct_exporters_10pct_sales_pct,tr16,Exports,Trade,Percent of firms exporting directly at least 10% of sales,Percent of firms exporting directly at least 10% of sales.,Percent
+bank_loan_or_credit_line_firms_pct,fin14,Access to finance,Finance,Percent of firms with a bank loan/line of credit,Percent of firms with a bank loan or line of credit.,Percent
+finance_major_constraint_firms_pct,fin16,Finance constraint,Finance,Percent of firms identifying access to finance as a major or very severe constraint,Percent of firms identifying access to finance as a major or very severe constraint.,Percent
+product_innovation_firms_pct,t7,Innovation,Innovation and Technology,Percent of firms that introduced a new product/service over last 3 years,Percent of firms introducing a new product/service over the last 3 years.,Percent
+process_innovation_firms_pct,t9,Innovation,Innovation and Technology,Percent of firms that introduced a process innovation over last 3 years,Percent of firms introducing a process innovation over the last 3 years.,Percent
+website_firms_pct,t5,Digital adoption,Innovation and Technology,Percent of firms having their own web site,Percent of firms having their own website.,Percent
+electronic_payments_made_pct,bready_fin31,Digital finance,Finance,[B-READY] Proportion of payments made electronically,Proportion of payments made electronically.,Percent
+formal_training_workers_pct,wk2,Human capital,Workforce,Proportion of workers offered formal training over last fiscal year (%)*,Proportion of workers offered formal training over the last fiscal year.,Percent
+quality_certification_firms_pct,bready_t1,Quality / technology,Innovation and Technology,[B-READY] Percent of firms with an internationally-recognized quality certification,Percent of firms with an internationally-recognized quality certification.,Percent
+electrical_outages_firms_pct,in16,Infrastructure,Infrastructure and Climate,Percent of firms experiencing electrical outages,Percent of firms experiencing electrical outages.,Percent
