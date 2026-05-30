@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img src="img/rd_coefficient_comparison.png" alt="R&D coefficient: OLS/Ridge point estimates vs Bayesian posteriors" width="650">
+  <img src="img/rd_coefficient_comparison.png" alt="R&D coefficient: OLS/Ridge point estimates vs Bayesian posteriors" width=850">
 </p>
 
 ## Repository structure
