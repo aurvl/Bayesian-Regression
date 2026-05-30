@@ -1,6 +1,16 @@
 # Bayesian Linear Regression in Econometrics
 
 <p align="center">
+  A from-scratch derivation and implementation of <strong>Bayesian linear regression</strong> and
+  its relatives (OLS, Ridge, Empirical Bayes), placed on a single common axis. The
+  project shows that a flat prior recovers OLS, a zero-mean Gaussian prior is exactly
+  Ridge, and Empirical Bayes learns the prior strength from the data by maximizing the
+  marginal likelihood. A real-world economic dataset (innovation, R&D, firm
+  performance) serves only as an illustration to make the shrinkage and
+  uncertainty-quantification mechanics visible.
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Bayesian-111827?style=for-the-badge" alt="Bayesian">
   <img src="https://img.shields.io/badge/Linear_Regression-2563EB?style=for-the-badge" alt="Linear Regression">
   <img src="https://img.shields.io/badge/Ridge-7C3AED?style=for-the-badge" alt="Ridge">
@@ -12,14 +22,6 @@
 <p align="center">
   <img src="img/rd_coefficient_comparison.png" alt="R&D coefficient: OLS/Ridge point estimates vs Bayesian posteriors" width="650">
 </p>
-
-A from-scratch derivation and implementation of **Bayesian linear regression** and
-its relatives (OLS, Ridge, Empirical Bayes), placed on a single common axis. The
-project shows that a flat prior recovers OLS, a zero-mean Gaussian prior is exactly
-Ridge, and Empirical Bayes learns the prior strength from the data by maximizing the
-marginal likelihood. A real-world economic dataset (innovation, R&D, firm
-performance) serves only as an illustration to make the shrinkage and
-uncertainty-quantification mechanics visible.
 
 ## Repository structure
 
